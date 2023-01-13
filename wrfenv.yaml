@@ -1,0 +1,15 @@
+name: wrfenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - wrf-python
+  - cartopy
+  - netcdf4
+  - xarray
+  - geopandas
+  - pandas
+  - numpy
+  - ipykernel
+  - geopy
+prefix: /home/users/baracoma/.conda/envs/wrfenv
